@@ -3,10 +3,10 @@ import AddTodo from './components/AddTodo'
 import Todos from './components/Todos'
 
 const App = () => {
-  return (
+  return ( //two componets are rendered
     <div>
       <AddTodo/>
-      <Todos/>
+      <Todos/>    
     </div>
   )
 }

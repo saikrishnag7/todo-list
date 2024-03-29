@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { addTodo  } from '../todoSlice'
 const AddTodo = () => {
     const dispatch = useDispatch()
-    const [input ,setInput] = useState('')
+    const [input ,setInput] = useState('')   //by using useState the input is taken from the input box and updated the todos in the todo slice using useDispatch
 
     const addTOdo = (e) =>{
         e.preventDefault();
